@@ -1,5 +1,6 @@
-$width-small:  400px;
-$width-medium: 760px;
+$width-mini:  400px;
+$width-small:  750px;
+$width-medium: 970px;
 $width-large:  1200px;
 
 @mixin custom-responsive($width) {
@@ -11,6 +12,9 @@ $width-large:  1200px;
   }
   @else if $width == small-screens {
     @media only screen and (max-width: $width-small) { @content; }
+  }
+  @if $width == mini-screens {
+  @media only screen and (max-width: $width-mini) { @content; }
   }
 }
 
