@@ -366,3 +366,6 @@ img {
   font-weight: bold;
   color: #fff;
   font-size: 21px; }
+
+img[alt=fullsize] {
+  width: 100%; }
