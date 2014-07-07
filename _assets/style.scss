@@ -2,8 +2,12 @@
 @import "custom_mixins.scss";
 
 $background: #f9f9f9;
+$cwhite:#fff;
 
 //h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
+h1, h2, h3, h4, h5, h6 {
+    color: $cwhite;
+}
 
 html, body { height: 100%; }
 body { 
