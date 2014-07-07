@@ -102,13 +102,13 @@ footer {
   @media only screen and (max-width: 1200px) {
     #container {
       width: 1200px; } }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 970px) {
     #container {
       width: 970px; } }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 750px) {
     #container {
       width: 750px; } }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 400px) {
     #container {
       width: 400px; } }
   #container .block {

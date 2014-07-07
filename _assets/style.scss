@@ -60,13 +60,13 @@ footer {
   @include custom-responsive(wide-screens) {
       width: 1200px;
   }
-    @include custom-responsive(wide-screens) {
+    @include custom-responsive(medium-screens) {
       width: 970px;
   }
-    @include custom-responsive(wide-screens) {
+    @include custom-responsive(small-screens) {
       width: 750px;
   }
-    @include custom-responsive(wide-screens) {
+    @include custom-responsive(mini-screens) {
       width: 400px;
   }
   background: #1c1c1c;
