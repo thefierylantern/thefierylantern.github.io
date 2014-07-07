@@ -92,6 +92,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
+  max-width: 800px;
   background: #1c1c1c;
   margin: 40px auto 20px;
   position: relative; }
@@ -100,18 +101,6 @@ footer {
     display: table; }
   #container:after {
     clear: both; }
-  @media only screen and (max-width: 1200px) {
-    #container {
-      max-width: 1200px; } }
-  @media only screen and (max-width: 970px) {
-    #container {
-      max-idth: 970px; } }
-  @media only screen and (max-width: 750px) {
-    #container {
-      max-width: 750px; } }
-  @media only screen and (max-width: 400px) {
-    #container {
-      max-width: 400px; } }
   #container .block {
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
