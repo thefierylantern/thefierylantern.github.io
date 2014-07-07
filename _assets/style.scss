@@ -4,6 +4,7 @@
 $background: #f9f9f9;
 $cwhite:#fff;
 
+
 //h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
 h1, h2, h3, h4, h5, h6 {
     color: $cwhite;
@@ -59,16 +60,16 @@ footer {
 //  @include box-sizing(border-box);
 //  width:100%;
 //  @include custom-responsive(wide-screens) {
-//      max-width: 1200px;
+//      width: 1200px;
 //  }
-//    @include custom-responsive(medium-screens) {
-//      max-idth: 970px;
+//  @include custom-responsive(medium-screens) {
+//      width: 970px;
 //  }
-//    @include custom-responsive(small-screens) {
-//      max-width: 750px;
+//  @include custom-responsive(small-screens) {
+//      width: 750px;
 //  }
-//    @include custom-responsive(mini-screens) {
-//      max-width: 400px;
+//  @include custom-responsive(mini-screens) {
+//      width: 400px;
 //  }
 //  background: #1c1c1c;
 //  margin: 40px auto 20px;
@@ -99,7 +100,7 @@ footer {
   @include clearfix;
   @include box-sizing(border-box);
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   background: #1c1c1c;
   margin: 40px auto 20px;
   position: relative;
@@ -256,7 +257,6 @@ section.post, section > p {
     &:before { left: -3px; }
     &:after { right: -2px; }
     &:before, &:after {
-      content: "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"; 
       font-size: 24px; 
       overflow: hidden;
       position: absolute;

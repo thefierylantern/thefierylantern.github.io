@@ -12,8 +12,8 @@
       <div class="content">
         <section class='post'>
           <h1 class="upcase">
-            <div class='date'>{{ page.date | date_to_string }}</div>
             {{ page.title }}
+            <div class='date'>{{ page.date | date_to_string }}</div>
           </h1>
           {{ content }}
           {% include signoff.html %}
