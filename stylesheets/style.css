@@ -362,5 +362,6 @@ img {
   margin-left: 320px; }
 
 /*my css*/
-h1 {
-  color: #fff; }
+.mytitle {
+  color: #fff;
+  font-size: 20px; }
