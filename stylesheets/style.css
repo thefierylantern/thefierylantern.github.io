@@ -143,7 +143,9 @@ footer {
 
 a, .as-link {
   text-decoration: none;
-  color: #269;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
   line-height: 1.4em;
   display: inline-block;
   vertical-align: baseline;
@@ -155,10 +157,10 @@ a, .as-link {
   -ms-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
-  a.main, a:hover, .as-link.main, .as-link:hover {
-    color: #1d5884;
-    background-repeat: repeat-x;
-    background-position: left bottom; }
+  a.main, .as-link.main {
+    color: white; }
+  a:hover, .as-link:hover {
+    color: black; }
   a.big-button, .as-link.big-button {
     min-width: 30%;
     border-radius: 3px;
