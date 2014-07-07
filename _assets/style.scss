@@ -57,17 +57,18 @@ footer {
 #container {
   @include clearfix;
   @include box-sizing(border-box);
+  width:100%;
   @include custom-responsive(wide-screens) {
-      width: 1200px;
+      max-width: 1200px;
   }
     @include custom-responsive(medium-screens) {
-      width: 970px;
+      max-idth: 970px;
   }
     @include custom-responsive(small-screens) {
-      width: 750px;
+      max-width: 750px;
   }
     @include custom-responsive(mini-screens) {
-      width: 400px;
+      max-width: 400px;
   }
   background: #1c1c1c;
   margin: 40px auto 20px;
