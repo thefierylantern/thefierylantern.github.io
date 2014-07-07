@@ -2,7 +2,7 @@ title:            The Fiery Lantern
 description:      The Fiery Lantern - Phan Minh Dang's portfolio site.
 url:              # Site url.
 signoff:          Phan Minh Dang.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+disqus_shortname: dg2701
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
