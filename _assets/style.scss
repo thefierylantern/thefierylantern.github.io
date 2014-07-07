@@ -3,7 +3,7 @@
 
 $background: #f9f9f9;
 
-h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
+//h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
 
 html, body { height: 100%; }
 body { 
@@ -11,9 +11,9 @@ body {
   color: #303030;
   background-color: #000;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 19px;
+//  font-weight: 400;
+  font-size: 14px;
+//  line-height: 19px;
   padding: 0; margin: 0;
 }
 img { border: none; }
@@ -55,9 +55,8 @@ footer {
   @include box-sizing(border-box);
   width: 100%;
   max-width: 600px;
-  background: #fff;
+  background: #262626;
   margin: 40px auto 20px;
-  border: 1px solid #eee;
   position: relative;
   .block {
     &:first-child, & + .block { border-top: 0; }
