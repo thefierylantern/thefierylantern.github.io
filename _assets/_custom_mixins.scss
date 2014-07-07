@@ -14,7 +14,7 @@ $width-large:  1200px;
     @media only screen and (max-width: $width-small) { @content; }
   }
   @if $width == mini-screens {
-  @media only screen and (max-width: $width-mini) { @content; }
+    @media only screen and (max-width: $width-mini) { @content; }
   }
 }
 
