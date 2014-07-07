@@ -363,5 +363,6 @@ img {
 
 /*my css*/
 .mytitle {
+  padding-top: 10px;
   color: #fff;
   font-size: 20px; }
