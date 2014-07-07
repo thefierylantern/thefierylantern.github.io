@@ -97,7 +97,6 @@ footer {
   max-width: 600px;
   background: #fff;
   margin: 40px auto 20px;
-  border-radius: 7px;
   border: 1px solid #eee;
   position: relative; }
   #container:before, #container:after {
@@ -364,5 +363,6 @@ img {
 /*my css*/
 .mytitle {
   padding-top: 10px;
+  font-weight: bold;
   color: #fff;
-  font-size: 20px; }
+  font-size: 21px; }
