@@ -5,6 +5,7 @@ $background: #f9f9f9;
 $dbg:#1c1c1c;
 $cwhite:#fff;
 $cblack:#000;
+$cqb:#4c4c4c;
 
 
 //h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
@@ -150,7 +151,7 @@ a, .as-link {
       color: $cwhite;
   }
   &:hover { 
-    color: $cblack;
+    color: $cqb;
   }
   &.big-button {
     min-width: 30%;

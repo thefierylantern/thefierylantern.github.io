@@ -160,7 +160,7 @@ a, .as-link {
   a.main, .as-link.main {
     color: white; }
   a:hover, .as-link:hover {
-    color: black; }
+    color: #4c4c4c; }
   a.big-button, .as-link.big-button {
     min-width: 30%;
     border-radius: 3px;
