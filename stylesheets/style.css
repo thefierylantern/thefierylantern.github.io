@@ -93,7 +93,7 @@ footer {
   box-sizing: border-box;
   width: 100%;
   max-width: 800px;
-  background: #1c1c1c;
+  background-color: #1c1c1c;
   margin: 40px auto 20px;
   position: relative; }
   #container:before, #container:after {
@@ -101,34 +101,34 @@ footer {
     display: table; }
   #container:after {
     clear: both; }
-  #container .block {
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
-    padding: 30px 40px 24px;
-    text-align: center; }
-    #container .block:first-child, #container .block + .block {
-      border-top: 0; }
-    #container .block:last-child {
-      border-bottom: 0; }
-    #container .block a.main {
-      display: inline-block;
-      vertical-align: baseline;
-      zoom: 1;
-      *display: inline;
-      *vertical-align: auto;
-      padding: 2px 2px;
-      margin-right: 12px;
-      margin-bottom: 6px; }
-      #container .block a.main:last-of-type {
-        margin-right: 0; }
-    #container .block .button {
-      display: inline-block;
-      vertical-align: baseline;
-      zoom: 1;
-      *display: inline;
-      *vertical-align: auto;
-      height: 20px;
-      overflow: hidden; }
+
+.block {
+  padding: 15px 50px 7px 50px;
+  text-align: center;
+  background-color: #1c1c1c; }
+  .block:first-child, .block + .block {
+    border-top: 0; }
+  .block:last-child {
+    border-bottom: 0; }
+  .block a.main {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    padding: 2px 2px;
+    margin-right: 12px;
+    margin-bottom: 6px; }
+    .block a.main:last-of-type {
+      margin-right: 0; }
+  .block .button {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    height: 20px;
+    overflow: hidden; }
 
 .content {
   -webkit-box-sizing: border-box;
@@ -138,7 +138,7 @@ footer {
   width: 100%;
   border-width: 0;
   border-style: solid;
-  padding: 30px 60px;
+  padding: 45px 50px 20px 50px;
   margin: auto; }
 
 a, .as-link {

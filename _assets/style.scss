@@ -2,6 +2,7 @@
 @import "custom_mixins.scss";
 
 $background: #f9f9f9;
+$dbg:#1c1c1c;
 $cwhite:#fff;
 $cblack:#000;
 
@@ -102,16 +103,16 @@ footer {
   @include box-sizing(border-box);
   width: 100%;
   max-width: 800px;
-  background: #1c1c1c;
+  background-color: $dbg;
   margin: 40px auto 20px;
   position: relative;
-  .block {
+}
+.block {
     &:first-child, & + .block { border-top: 0; }
     &:last-child { border-bottom: 0; }
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
-    padding: 30px 40px 24px;
+    padding: 15px 50px 7px 50px;
     text-align: center;
+    background-color: $dbg;
     a.main {
       @include inline-block;
       padding: 2px 2px;
@@ -125,14 +126,6 @@ footer {
       overflow: hidden;
     }
   }
-}
-a.main {
-      @include inline-block;
-      padding: 2px 2px;
-      margin-right: 12px;
-      margin-bottom: 6px;
-      &:last-of-type { margin-right: 0; }
-    }
 
 
 .content {
@@ -141,7 +134,7 @@ a.main {
   width: 100%;
   border-width: 0;
   border-style: solid;
-  padding: 30px 60px;
+  padding: 45px 50px 20px 50px;
   margin: auto;
 }
 
