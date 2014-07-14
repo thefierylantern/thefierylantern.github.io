@@ -126,6 +126,13 @@ footer {
     }
   }
 }
+a.main {
+      @include inline-block;
+      padding: 2px 2px;
+      margin-right: 12px;
+      margin-bottom: 6px;
+      &:last-of-type { margin-right: 0; }
+    }
 
 
 .content {
