@@ -6,7 +6,7 @@ html, body {
 
 body {
   color: #cdcdcd;
-  background-color: #000;
+  background-color: bgc;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   padding: 0;
@@ -74,7 +74,9 @@ blockquote {
   font-style: normal !important; }
 
 header {
-  text-align: center; }
+  text-align: center;
+  background-color: black;
+  padding: 10px 0px 40px 0px; }
 
 footer {
   width: 100%;

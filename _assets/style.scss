@@ -1,7 +1,7 @@
 @import "bourbon/bourbon";
 @import "custom_mixins.scss";
 
-$background: #f9f9f9;
+$bgc: #f9f9f9;
 $dbg:#1c1c1c;
 $cwhite:#eaeaea;
 $cblack:#000;
@@ -17,7 +17,7 @@ html, body { height: 100%; }
 body { 
   &, * { -webkit-font-smoothing: antialiased; }
   color: #cdcdcd;
-  background-color: #000;
+  background-color: bgc;
   font-family: 'Roboto', sans-serif;
 //  font-weight: 400;
   font-size: 14px;
@@ -46,7 +46,11 @@ blockquote {
   font-style: normal !important;
 }
 
-header { text-align: center; }
+header { 
+    text-align: center; 
+    background-color: $cblack;
+    padding: 10px 0px 40px 0px;
+}
 
 footer {
   width: 100%;
