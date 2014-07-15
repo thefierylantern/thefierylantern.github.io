@@ -11,6 +11,8 @@ Art is my passion but I am also interested in interactive media and product desi
 
 If you are looking for something interesting, this page will not provide anything cause it is under developing.
 
-However, you can still find more information about me at my [Deveiant](http://thefierylantern.deviantart.com/) or [LinkedIn](http://www.linkedin.com/profile/view?id=300855638&trk=nav_responsive_tab_profile).
+However, you can still find more information about me at:&nbsp;
+[<i class="fa fa-deviantart fa-2x"></i>](http://thefierylantern.deviantart.com/)&nbsp;
+[<i class="fa fa-linkedin-square fa-2x"></i>](http://www.linkedin.com/profile/view?id=300855638&trk=nav_responsive_tab_profile)
 
 And I also want to say thanks you to [Mu-An](http://muan.co) for developed Jekyll and [Hung Phan](http://github.com/hung-phan) for supporting with this site.
